@@ -9,3 +9,5 @@ The easiest way to deploy this Bot
 • [RoseLoverX](https://t.me/RoseLoverX) 
 
 • [Me](https://github.com/Red-Aura) 
+
+• [Gogoanime-Api](https://github.com/BaraniARR/gogoanimeapi)
