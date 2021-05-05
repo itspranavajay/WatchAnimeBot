@@ -1,13 +1,13 @@
-import os
 import time
 import logging
-from telethon import TelegramClient, events
+from decouple import config
+from telethon import TelegramClient
 
-StartTime = time.time()
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
+                    level=logging.WARNING)
 
-API_ID = Config.API_ID
-API_HASH = Config.API_HASH
-TOKEN = Config.TOKEN
+APP_ID = config("APP_ID", default=None, cast=int)
+API_HASH = config("API_HASH", default=None)
+TOKEN = config("TOKEN", default=None)
 
-GogoAnime = TelegramClient('bot', API_ID, API_HASH).start(bot_token=TOKEN)
+GogoAnime = TelegramClient('bot', APP_ID, API_HASH).start(bot_token=TOKEN)
