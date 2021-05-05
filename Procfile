@@ -1,0 +1,1 @@
+Red: python -m AnimeWatchBot
