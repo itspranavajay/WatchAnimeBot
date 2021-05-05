@@ -1,7 +1,7 @@
 import glob
 import logging
 from pathlib import Path
-from AnimeWatchBot.utils import load_plugins
+from AnimeWatchBot.helper import load_plugins
 from AnimeWatchBot import GogoAnime
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
