@@ -70,7 +70,7 @@ async def episode(event):
  imd, episode = input.split("?", 1)
  animeid = episode.strip()
  epsd = imd.strip()
- result = cartoon.get_episodes_link(animeid, epsd)
+ result = anime.get_episodes_link(animeid, epsd)
  text = "You are watching Episode {} of {}:\n\nNote: Select HDP link for faster streaming.".format(epsd, animeid)
  butons = []
  cbutton = []
