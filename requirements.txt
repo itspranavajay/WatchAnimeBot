@@ -1,3 +1,2 @@
 telethon
 gogoanime-api
-python-decouple
