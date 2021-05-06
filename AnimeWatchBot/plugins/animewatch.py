@@ -16,7 +16,7 @@ async def gogo(event):
      break
  await event.reply("search", buttons=buttons)
 
-@tbot.on(events.CallbackQuery(pattern="search(\_(.*))"))
+@GogoAnime.on(events.CallbackQuery(pattern="search(\_(.*))"))
 async def search(event):
  tata = event.pattern_match.group(1)
  data = tata.decode()
@@ -42,7 +42,7 @@ Summary: {}
 """
  await event.edit(text.format(result["title"], result["year"], result["type"], result["status"], result["genre"], result["episodes"], result["plot_summary"]), buttons=buttons)
 
-@tbot.on(events.CallbackQuery(pattern="episode(\_(.*))"))
+@GogoAnime.on(events.CallbackQuery(pattern="episode(\_(.*))"))
 async def episode(event):
  tata = event.pattern_match.group(1)
  data = tata.decode()
@@ -62,7 +62,7 @@ async def episode(event):
  text = f"You selected {animeid},\n\nSelect the Episode you want :-"
  await event.edit(text, buttons=cbutton)
 
-@tbot.on(events.CallbackQuery(pattern="download(\_(.*))"))
+@GogoAnime.on(events.CallbackQuery(pattern="download(\_(.*))"))
 async def episode(event):
  tata = event.pattern_match.group(1)
  data = tata.decode()
