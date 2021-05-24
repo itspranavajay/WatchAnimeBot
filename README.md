@@ -7,3 +7,8 @@ Enter your ```API_ID```,```API_HASH``` And ```TOKEN```.
  
 ## Credits
 • [Gogoanime-Api](https://github.com/BaraniARR/gogoanimeapi)
+##
+## Support & News
+[![Support!](https://img.shields.io/badge/%20Channel-Join-Green)](https://t.me/cosmicauracommunity)
+[![Support!](https://img.shields.io/badge/%20Group-Join-Green)](https://t.me/joinchat/KZDIzbFeBptiMzVl)
+#### Star and Fork the Repo if you like it 💖💖
